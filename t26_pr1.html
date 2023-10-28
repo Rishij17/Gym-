@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM website</title>
+    <link rel="stylesheet" href="t26_pr1.css">
+
+    <style>
+        body {
+            top: 0px;
+            background-image: linear-gradient(190deg, rgb(185, 157, 244), rgb(12, 12, 93)80%);
+            margin: 0px;
+            padding: 0%;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+        .image li {
+            display: inline-block;
+            position: relative;
+
+        }
+
+        .image img {
+            width: 521px;
+            margin: 35px 96px;
+            padding: 22px;
+            height: 374px;
+        }
+
+
+
+        .left {
+            display: inline-block;
+            position: fixed;
+            border: 2px solid red;
+            left: 1px;
+            top: 1px;
+            color: rgb(255, 250, 54);
+            background-image: linear-gradient(59deg, black 22%, rgb(0, 123, 255));
+        }
+
+        .left img {
+            width: 110px;
+            display: block;
+        }
+
+        .mid {
+            color: white;
+            margin: auto;
+            position: absolute;
+            top: 0px;
+            display: block;
+            width: 30%;
+            left: 508px;
+            height: 30px;
+            border-radius: 20px;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 5px;
+            font-weight: 800;
+            background-image: linear-gradient(177deg, black 47%, transparent);
+        }
+
+        .right {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: block;
+            width: auto;
+            border: 3px solid red;
+            background-image: linear-gradient(rgb(0, 0, 45), rgb(167 20 20));
+            border-radius: 11px;
+        }
+
+        .navbar {
+            height: 0px;
+            display: inline-block;
+            cursor: pointer;
+            padding: 0px;
+            top: 0px;
+            left: -2px;
+            position: relative;
+        }
+
+        .navbar img {
+            position: relative;
+            display: inline-block;
+            border: 1px solid white;
+            border-radius: 11px;
+            top: -9px;
+            width: 36px;
+
+            margin: -12px 3px;
+        }
+
+        .navbar li {
+            position: relative;
+            display: inline-block;
+            border: 2px solid white;
+            border-radius: 11px;
+            top: -10px;
+            font-weight: 400;
+            width: auto;
+            left: 20px;
+            padding: 4px;
+            margin: -9px 4px;
+            background-image: linear-gradient(rgb(0, 238, 255), rgb(56, 56, 212));
+        }
+
+        .navbar li:hover {
+            color: beige;
+            background-image: linear-gradient(rgb(2, 56, 59), rgb(255, 140, 0));
+            font-weight: 800;
+        }
+
+        .btn {
+            margin: 0px;
+            background-image: linear-gradient(17deg, rgb(14, 3, 67) 47%, rgb(48, 75, 7));
+            color: rgb(194, 81, 0);
+            padding: 4px 14px;
+            border: 2px solid greenyellow;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: beige;
+            background-image: linear-gradient(rgb(3, 50, 52), rgb(255, 102, 0));
+            font-weight: 700;
+        }
+
+        .container {
+            margin: auto;
+            color: rgb(0, 0, 0);
+            width: 765px;
+            font-size: medium;
+            font-weight: 400;
+            padding: 25px;
+            border: 3px solid rgb(227, 197, 4);
+            border-radius: 8px;
+        }
+
+        .form_grp input {
+            text-align: center;
+            display: block;
+            width: 316px;
+            font-size: 25px;
+            text-decoration: underline;
+            padding: 3px;
+            border: 2px solid black;
+            border-radius: 20px;
+            margin: 3px auto;
+        }
+
+        .container h1 {
+            text-align: center;
+            text-decoration: underline;
+            border: 2px solid rgb(0, 0, 118);
+            border-radius: 10px;
+            background-image: linear-gradient(10deg, orange, white, green);
+        }
+
+        .container h4 {
+
+            margin: 10px auto;
+            width: 224px;
+            height: 224px;
+            border: 2px solid green;
+            border-radius: 112px;
+            background-image: linear-gradient(178deg, orange, white, green);
+        }
+
+        .container h3 {
+            margin: auto;
+    position: relative;
+    bottom: 150px;
+    left: 295px;
+    color: blue;
+    font-size: 24px;
+    font-weight: 900;
+        }
+
+        .container button {
+            width: 103px;
+            display: block;
+            margin: auto;
+            height: 30px;
+            font-size: large;
+            font-weight: 600;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="image">
+            <li><img src="6hg.png"></li>
+            <li><img src="gfj.jpg"></li>
+            <li><img src="eytdh.jpg"></li>
+            <li><img src="lkl.jpg"></li>
+            <li><img src="effh.jpg"></li>
+            <li><img src="chimtu.jpg"></li>
+        </div>
+        <div class="left">
+            <img src="6fu.png">
+            FITNESS GYM
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <img src="6fu.png">
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>About Us</li>
+                <li><a href=""></a>Fitness Calculator</li>
+                <li><a href=""></a>Contact Us</li>
+
+            </ul>
+        </div>
+        <div class="right">  <!--Click to Call and Email -->
+            <a href="tel:+918910419283" class="btn">Call Us</a>
+            <a href="mailto:amlandey89@gmail.com" class="btn">Email Us</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF KOLKATA </h1>
+        <h4></h4>
+        <h3>HURRY UP!!!!! <br>50% DISCOUNT</h3>
+
+        <form action="noaction.php"> <!--for redirecting to the backend -->
+            <div class="form_grp">
+                <input type="text" Name="" placeholder="Enter Your Name"> <!--for giving input in form-->
+            </div>
+            <div class="form_grp">
+                <input type="text" Age="" placeholder="Enter Your Age">
+            </div>
+            <div class="form_grp">
+                <input type="text" Gender="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form_grp">
+                <input type="alphanumeric" Address="" placeholder="Enter Your Address">
+            </div>
+            <div class="form_grp">
+                <input type="numeric" Phone Number="" placeholder="Enter Your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
